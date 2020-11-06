@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import YouTube from 'react-youtube'
 import movieTrailer from 'movie-trailer'
-import axios from './axios'
-import './Row.css'
+import axios from '../config/axios'
+import '../styles/Row.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
